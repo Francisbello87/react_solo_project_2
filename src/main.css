@@ -16,6 +16,7 @@ section {
   max-width: 550px;
   background-color: #fff;
   margin: 50px auto;
+  border-radius: 10px;
 }
 nav {
   height: 55px;
@@ -23,6 +24,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .logo {
   max-width: 140px;
@@ -35,6 +38,7 @@ nav {
   margin-top: 50px;
   margin-bottom: 28px;
 }
+
 .journal-info {
   flex: 1;
   margin-left: 19px;
@@ -76,6 +80,7 @@ nav {
 }
 .journal-content .description {
   font-size: 11px;
+  line-height: 16px;
 }
 hr {
   width: 478px;
